@@ -1,0 +1,9 @@
+PubID,Device,Code Deployed,Feature Flag,Deployment Date,Feature Flag Date,Previous Code Deployed,Previous Feature Flag,Previous Deployment Date,Previous Feature Flag Date,Site
+0,Web,False,False,2024-12-31,,True,False,2024-12-31,,"AstroCupid,BBWCupid"
+0,Web,False,False,2024-12-31,2025-01-12,True,False,2024-12-31,,"AsianDating,AsianDating,BlackCupid,BlackCupid"
+0,Web,False,False,2025-01-11,2025-01-12,True,False,2024-12-31,,"SilverLoveCupid,SilverLoveCupid,SilverLoveCupid,AfroIntroductions,AfroIntroductions,AfroIntroductions"
+0,Web,False,True,2025-01-11,2025-01-12,True,False,2024-12-31,,"StagingCupid,StagingCupid,StagingCupid,StagingCupid,EliteCupid,EliteCupid,EliteCupid,EliteCupid"
+0,Web,True,False,2025-01-11,,True,False,2024-12-31,,"ChinaLoveCupid,ChristianCupid"
+0,Web,True,False,2025-01-11,2025-01-12,True,False,2024-12-31,,"BrazilCupid,BrazilCupid"
+0,Web,True,True,2025-01-11,,True,False,2024-12-31,,"CambodianCupid,CambodianCupid"
+0,Web,True,True,2025-01-11,2025-01-12,True,False,2024-12-31,,"CaribbeanCupid,CaribbeanCupid,CaribbeanCupid"

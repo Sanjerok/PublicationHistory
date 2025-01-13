@@ -1,0 +1,53 @@
+@keyframes crawl-in {
+    0% {
+        opacity: 0; /* Start fully transparent */
+        transform: translateY(500px); /* Start 50px below */
+    }
+    100% {
+        opacity: 1; /* Fully visible */
+        transform: translateY(0); /* End at the original position */
+    }
+}
+
+/* Apply the animation to the Toast */
+.custom-toast {
+    animation: fadeOutSuccess 0.5s ease 2s forwards;
+}
+
+.custom-error-toast {
+    background-color: #ffcccb; /* Light red background */
+    color: black;             /* Black text for contrast */
+    z-index: 1050;
+    animation: fadeOutError 0.5s ease 4s forwards;
+}
+
+.custom-error-toast .toast-header {
+    background-color: #ffcccb; /* Red background for the title */
+    color: black;          /* White text for the title */
+    font-weight: bold;     /* Bold text for the title */
+    border-bottom: none;   /* Remove any bottom border if present */
+    z-index: 1050;
+}
+
+.input-field {
+    border: 1px solid #ccc; /* Normal gray border */
+    border-radius: 4px;
+    padding: 5px;
+}
+
+/* Error state style */
+.input-field-error {
+    border: 2px solid red; /* Red border for validation error */
+    background-color: #ffcccb;
+}
+
+@keyframes fadeOutSuccess {
+    from { opacity: 1; }
+    to { opacity: 0; visibility: hidden; }
+}
+
+@keyframes fadeOutError {
+    from { opacity: 1; }
+    to { opacity: 0; visibility: hidden; }
+}
+
